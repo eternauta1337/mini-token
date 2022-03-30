@@ -53,5 +53,4 @@ describe("MiniToken", function () {
       });
     });
   });
-
 });

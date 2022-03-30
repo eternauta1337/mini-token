@@ -20,7 +20,6 @@ module.exports = {
     },
     kovan: {
       url: `https://eth-kovan.alchemyapi.io/v2/${process.env.ALCHEMY_KEY}`,
-      // 0x2b2Ad0f250a29A02fAD5B6BeA74e5F495FE5CE82, 0xc975A99e90979FaE9dC9a27F3a7463a267C99515
       accounts: [process.env.PRIVATE_KEY_1, process.env.PRIVATE_KEY_2]
     }
   }
